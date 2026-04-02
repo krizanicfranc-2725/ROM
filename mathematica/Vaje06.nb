@@ -10,16 +10,29 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    160922,       2829]
-NotebookOptionsPosition[    159013,       2793]
-NotebookOutlinePosition[    159450,       2810]
-CellTagsIndexPosition[    159407,       2807]
+NotebookDataLength[    161432,       2843]
+NotebookOptionsPosition[    159434,       2806]
+NotebookOutlinePosition[    159866,       2823]
+CellTagsIndexPosition[    159823,       2820]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Avtomatsko", " ", "shranjevanje", " ", "notebook"}], "-", "a"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"SetOptions", "[", 
+    RowBox[{"$FrontEndSession", ",", 
+     RowBox[{"NotebookAutoSave", "\[Rule]", "True"}]}], "]"}], "\n", 
+   RowBox[{"NotebookSave", "[", "]"}]}]}]], "Input",ExpressionUUID->"5c7b6e6b-\
+6905-8944-b517-c5521bac8b36"],
 
 Cell[CellGroupData[{
+
 Cell["Vaje  6 - Analiza z Mathematico", "Title",
  CellChangeTimes->{{3.922962110423855*^9, 3.922962115556046*^9}, {
   3.983953614881898*^9, 
@@ -959,9 +972,9 @@ lN9tHgIAAAD/sbbN02u2pFMwW2C6xQAAAGCv3vtRSjlqrWfXf7b8cmdPrxsA
 AACw35zzvL9nCyxd8t994wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAC7fADSJhAX
     "], {{0, 118.}, {503., 0}}, {0, 255},
-    RasterInterpolation -> "High",
     ColorFunction->RGBColor,
-    ImageResolution->{144., 144.}],
+    ImageResolution->{144., 144.},
+    RasterInterpolation->"High"],
    BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
@@ -1548,9 +1561,9 @@ IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEII
 IYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEII
 IYQQQgghhBBCCCGEEEIIIYQQQvx//h/zlBNf
     "], {{0, 71.}, {472., 0}}, {0, 255},
-    RasterInterpolation -> "High",
     ColorFunction->RGBColor,
-    ImageResolution->{144., 144.}],
+    ImageResolution->{144., 144.},
+    RasterInterpolation->"High"],
    BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
@@ -2003,9 +2016,9 @@ CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
 CCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBC
 CCGEEEIIIYQQQgghhuH/AKEIzbY=
      "], {{0, 71.}, {472., 0}}, {0, 255},
-     RasterInterpolation -> "High",
      ColorFunction->RGBColor,
-     ImageResolution->{144., 144.}],
+     ImageResolution->{144., 144.},
+     RasterInterpolation->"High"],
     BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
     Selectable->False],
    DefaultBaseStyle->"ImageGraphics",
@@ -2776,9 +2789,9 @@ oiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiK
 oiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiKoiiK
 oljwH9OBYyI=
     "], {{0, 116.}, {503., 0}}, {0, 255},
-    RasterInterpolation -> "High",
     ColorFunction->RGBColor,
-    ImageResolution->{144., 144.}],
+    ImageResolution->{144., 144.},
+    RasterInterpolation->"High"],
    BoxForm`ImageTag["Byte", ColorSpace -> "RGB", Interleaving -> True],
    Selectable->False],
   DefaultBaseStyle->"ImageGraphics",
@@ -2794,7 +2807,7 @@ oljwH9OBYyI=
 WindowSize->{726.75, 729.75},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 Magnification:>0.75 Inherited,
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+FrontEndVersion->"14.3 for Microsoft Windows (64-bit) (July 8, 2025)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"eb40e2eb-3d0a-4fa4-9058-d0312c96263e"
 ]
@@ -2809,26 +2822,27 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 426, 11, 49, "Input",ExpressionUUID->"5c7b6e6b-6905-8944-b517-c5521bac8b36"],
 Cell[CellGroupData[{
-Cell[580, 22, 225, 4, 74, "Title",ExpressionUUID->"a5c82f9e-6adc-48e3-bf99-906d65cd4319"],
-Cell[808, 28, 202, 4, 27, "Text",ExpressionUUID->"d666bbe5-f9af-4526-831c-68edf611f343"],
+Cell[1009, 35, 225, 4, 72, "Title",ExpressionUUID->"a5c82f9e-6adc-48e3-bf99-906d65cd4319"],
+Cell[1237, 41, 202, 4, 25, "Text",ExpressionUUID->"d666bbe5-f9af-4526-831c-68edf611f343"],
 Cell[CellGroupData[{
-Cell[1035, 36, 203, 4, 50, "Section",ExpressionUUID->"b5d1542f-846d-4d3f-925b-9cc00ae1855b"],
-Cell[1241, 42, 1402, 38, 29, "Text",ExpressionUUID->"5af3041f-6577-4133-8c54-85107507bae6"],
-Cell[2646, 82, 1131, 28, 31, "Text",ExpressionUUID->"a4870ed4-f10e-4ad1-8312-8ab4a71b8640"],
-Cell[3780, 112, 767, 19, 29, "Text",ExpressionUUID->"09ccd0c8-e195-40df-ae5e-f76f468f0793"],
-Cell[4550, 133, 1120, 30, 41, "Text",ExpressionUUID->"4712c082-f249-454e-a88c-72eb6c3912d5"],
-Cell[5673, 165, 3382, 89, 128, "Text",ExpressionUUID->"d7442bdd-ff42-4fb0-aae4-e39af5f4a84b"],
-Cell[9058, 256, 2790, 75, 139, "Text",ExpressionUUID->"55c42b75-78c3-45b0-81f0-935e03be2e76"],
-Cell[11851, 333, 474, 10, 82, "Text",ExpressionUUID->"aa945b58-c04f-492e-834a-bcaa3e9e7528"],
-Cell[12328, 345, 913, 15, 82, "Text",ExpressionUUID->"1463480b-b5f1-468b-be09-22cbc6a1f57d"]
+Cell[1464, 49, 203, 4, 49, "Section",ExpressionUUID->"b5d1542f-846d-4d3f-925b-9cc00ae1855b"],
+Cell[1670, 55, 1402, 38, 25, "Text",ExpressionUUID->"5af3041f-6577-4133-8c54-85107507bae6"],
+Cell[3075, 95, 1131, 28, 26, "Text",ExpressionUUID->"a4870ed4-f10e-4ad1-8312-8ab4a71b8640"],
+Cell[4209, 125, 767, 19, 25, "Text",ExpressionUUID->"09ccd0c8-e195-40df-ae5e-f76f468f0793"],
+Cell[4979, 146, 1120, 30, 37, "Text",ExpressionUUID->"4712c082-f249-454e-a88c-72eb6c3912d5"],
+Cell[6102, 178, 3382, 89, 113, "Text",ExpressionUUID->"d7442bdd-ff42-4fb0-aae4-e39af5f4a84b"],
+Cell[9487, 269, 2790, 75, 123, "Text",ExpressionUUID->"55c42b75-78c3-45b0-81f0-935e03be2e76"],
+Cell[12280, 346, 474, 10, 74, "Text",ExpressionUUID->"aa945b58-c04f-492e-834a-bcaa3e9e7528"],
+Cell[12757, 358, 913, 15, 74, "Text",ExpressionUUID->"1463480b-b5f1-468b-be09-22cbc6a1f57d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13278, 365, 330, 8, 50, "Section",ExpressionUUID->"17289ac9-870b-43c4-add4-aada83336844"],
-Cell[13611, 375, 36063, 597, 100, "Text",ExpressionUUID->"899d4038-136d-4ee7-93db-c5c0298c2264"],
-Cell[49677, 974, 35591, 590, 64, "Text",ExpressionUUID->"9fb6750e-0529-4720-910c-734caf3d7bba"],
-Cell[85271, 1566, 27102, 451, 64, "Text",ExpressionUUID->"f6680678-5e39-49b9-a1bd-97544ecb4437"],
-Cell[112376, 2019, 46609, 770, 92, "Text",ExpressionUUID->"8d36657a-3c8f-4050-beaf-447a0853c456"]
+Cell[13707, 378, 330, 8, 49, "Section",ExpressionUUID->"17289ac9-870b-43c4-add4-aada83336844"],
+Cell[14040, 388, 36061, 597, 100, "Text",ExpressionUUID->"899d4038-136d-4ee7-93db-c5c0298c2264"],
+Cell[50104, 987, 35589, 590, 64, "Text",ExpressionUUID->"9fb6750e-0529-4720-910c-734caf3d7bba"],
+Cell[85696, 1579, 27100, 451, 64, "Text",ExpressionUUID->"f6680678-5e39-49b9-a1bd-97544ecb4437"],
+Cell[112799, 2032, 46607, 770, 92, "Text",ExpressionUUID->"8d36657a-3c8f-4050-beaf-447a0853c456"]
 }, Open  ]]
 }, Open  ]]
 }
