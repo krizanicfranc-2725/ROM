@@ -1,0 +1,1 @@
+V projektu fraktal bom pripravil interaktivno aplikacijo, ki prikazuje različne fraktale. Uporabnik bo lahko spreminjal parametre, število iteracij, barve in povečavo, da bo mogoče raziskovati različne oblike in vzorce. Izbor fraktalov bom prilagodil med delom, glede na to, kateri se izkažejo za najbolj zanimive in (meni) razumljive.
