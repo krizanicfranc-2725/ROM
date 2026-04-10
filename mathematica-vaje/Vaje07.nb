@@ -1,0 +1,229 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7310,        221]
+NotebookOptionsPosition[      6134,        191]
+NotebookOutlinePosition[      6573,        208]
+CellTagsIndexPosition[      6530,        205]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Vaje  7 - Algebra z Mathematico", "Title",
+ CellChangeTimes->{{3.922962110423855*^9, 3.922962115556046*^9}, {
+  3.983953614881898*^9, 3.9839536199810066`*^9}, {3.9840183495110197`*^9, 
+  3.9840183549254527`*^9}},ExpressionUUID->"b0704c1f-99c4-445f-8a9a-\
+2ccc691cce4e"],
+
+Cell["9.4.2026", "Text",
+ CellChangeTimes->{{3.922962121382805*^9, 3.92296214401709*^9}, {
+  3.9839536379968033`*^9, 3.9839536412318573`*^9}, {3.9840183639227295`*^9, 
+  3.984018364481017*^9}},ExpressionUUID->"26cdc1d3-e2ac-4b25-b15d-\
+6e3d7e707ad0"],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 1", "Section",
+ CellChangeTimes->{{3.922962110423855*^9, 3.922962115556046*^9}, {
+  3.983953614881898*^9, 3.9839536199810066`*^9}, {3.9840183495110197`*^9, 
+  3.9840183549254527`*^9}, {3.9840342956605186`*^9, 
+  3.9840342966834297`*^9}},ExpressionUUID->"4f0b6a37-4ffd-4a95-9181-\
+1ab5b4750985"],
+
+Cell[TextData[{
+ "Podana je matrika \n\tA = ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"1", 
+       RowBox[{"-", "1", " "}], 
+       RowBox[{"-", "1"}], 
+       RowBox[{"-", "1"}]},
+      {"2", "3", 
+       RowBox[{"-", "12"}], "3"},
+      {
+       RowBox[{"-", "1"}], "3", "0", 
+       RowBox[{"-", "1"}]},
+      {
+       RowBox[{"-", "2"}], "1", "4", 
+       RowBox[{"-", "1"}]}
+     }], ")"}], TraditionalForm]],ExpressionUUID->
+  "285121ac-4cf1-413d-bdb0-3566900d8ac3"],
+ ". \na) Dolo\[CHacek]ite rang matrike A. \nb) Matriko A pomno\[ZHacek]ite z \
+1/3. \nc) Izra\[CHacek]unajte determinanto matrike A.\nd) Dolo\[CHacek]ite \
+lastne vrednosti matrike A (ukaz ",
+ StyleBox["Eigenvalues",
+  FontSlant->"Italic"],
+ ").\ne) Naj bo  B tista matrika oblike \n \t ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", GridBox[{
+      {"1", 
+       RowBox[{"-", "5", " "}], 
+       RowBox[{"-", "1"}], "14"},
+      {"2", "3", "1", "3"},
+      {"1", "3", 
+       RowBox[{"-", "0.5"}], 
+       RowBox[{"-", "1"}]},
+      {
+       RowBox[{"-", "2"}], "1", 
+       RowBox[{"-", "2"}], "\[Alpha]"}
+     }], ")"}], TraditionalForm]],ExpressionUUID->
+  "a434b7e1-2c61-4cc7-bafe-748b16a29096"],
+ ",\n   za katero velja ",
+ StyleBox["det(B) = -195",
+  FontSlant->"Italic"],
+ ". Izra\[CHacek]unjate ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"A", "+", "B"}], TraditionalForm]],ExpressionUUID->
+  "4acb785c-92af-4254-9d3f-c3bcb7a16434"],
+ ",  ",
+ Cell[BoxData[
+  FormBox["AB", TraditionalForm]],ExpressionUUID->
+  "c4efe903-212a-4c70-9377-fa234eee0a38"],
+ " in ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["AB", 
+    RowBox[{"-", "1"}]], TraditionalForm]],ExpressionUUID->
+  "13dae251-1818-4e50-adc1-d6153ca934dc"],
+ ". Rezultate izpi\[SHacek]ite v matri\[CHacek]ni obliki (ukaz ",
+ StyleBox["MatrixForm",
+  FontSlant->"Italic"],
+ "). Kaj vrne ",
+ StyleBox["A.B",
+  FontSlant->"Italic"],
+ " in kaj ",
+ StyleBox["A*B",
+  FontSlant->"Italic"],
+ "?\nf) Naj bo ",
+ StyleBox["a ",
+  FontWeight->"Bold"],
+ "prva",
+ StyleBox[" ",
+  FontWeight->"Bold"],
+ "vrstica matrike A in ",
+ StyleBox["b",
+  FontWeight->"Bold"],
+ " tretja vrstica matrike B (ustrezni vrstici iz matrik A in B \
+izlo\[CHacek]ite z uporabo ustreznega ukaza, ne s prepisovanjem na roke). \
+Izra\[CHacek]unjate skalarni produkt vektorjev ",
+ StyleBox["a",
+  FontWeight->"Bold"],
+ " in ",
+ StyleBox["b",
+  FontWeight->"Bold"],
+ "."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQA2IQHRl8NuTOrzeOztY/wkD0v23+LS/XvXVUufBhFoi+
+IjLzN4iWWDmd8RWQjs/05QDRdS2mEiB6F0ekEoj2yLuvDKJPlDQqvgfSWjdj
+DUB0mekDWxDtFnTFEURncXz0BNERGzy9QbT2tSB/EG18gzEARGvU1CWD6DNs
+V9JA9IXwlbUgOsfsXg+I9vnG8BpEW3N0vgXR4eIrv4Bose9vv4Po7aeVXT8A
+6WeHXrqB6JRiSV8QfYNDDkxnGJTPANEm+4/NBtEL6zZtAtF9ytqbQfScu798
+PgLpvM1lASC65cz/ZBBdIPU6DUSXlCcWgGjDd2lgOiyve4fE+reOa86GHQPR
+Uh1iDVJA+gyDDpgGAGgezPw=
+  "],ExpressionUUID->"3da1ea18-755b-4751-9a11-af31ab10733d"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 2", "Section",
+ CellChangeTimes->{{3.922962110423855*^9, 3.922962115556046*^9}, {
+  3.983953614881898*^9, 3.9839536199810066`*^9}, {3.9840183495110197`*^9, 
+  3.9840183549254527`*^9}, {3.9840342956605186`*^9, 
+  3.984034313506175*^9}},ExpressionUUID->"c4758f9a-c48c-47fd-97c4-\
+705cd30f5ad0"],
+
+Cell[TextData[{
+ "Izra\[CHacek]unajte vektorski produkt vektorjev (1, 2, 3) in (4, 5, 6) . \
+Kolik\[SHacek]na je njegova dol\[ZHacek]ina? Nari\[SHacek]ite vse tri \
+vektorje (ukaz ",
+ StyleBox["Arrow",
+  FontSlant->"Italic"],
+ ") . "
+}], "Text",
+ CellChangeTimes->{{3.984034327867035*^9, 
+  3.984034344455868*^9}},ExpressionUUID->"085b2ce9-7dd7-45d1-bb36-\
+a6e30ad99bc3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 3", "Section",
+ CellChangeTimes->{{3.922962110423855*^9, 3.922962115556046*^9}, {
+  3.983953614881898*^9, 3.9839536199810066`*^9}, {3.9840183495110197`*^9, 
+  3.9840183549254527`*^9}, {3.9840342956605186`*^9, 
+  3.9840343093890896`*^9}},ExpressionUUID->"dee15b22-94f3-46fd-8d56-\
+1b53410f332e"],
+
+Cell[TextData[{
+ "Podan je sistem ena\[CHacek]b \n\t\[Beta] x + y - z = 1,\n\t2x + 5y = 9,\n\t\
+y + z = -3.\nZapi\[SHacek]ite matriko sistema in se prepri\[CHacek]ajte, da \
+je sistem re\[SHacek]ljiv za vsak \[Beta] razli\[CHacek]en od 4/5. Nato za \
+\[Beta] = 1 re\[SHacek]ite sistem na dva na\[CHacek]ina: z ukazom ",
+ StyleBox["LinearSolve",
+  FontSlant->"Italic"],
+ " in ",
+ StyleBox["Solve",
+  FontSlant->"Italic"],
+ ". "
+}], "Text",
+ CellChangeTimes->{{3.984032623369055*^9, 3.9840326630329447`*^9}, {
+  3.984032694031116*^9, 3.984032714394888*^9}, {3.984032748901335*^9, 
+  3.9840328780770006`*^9}, {3.984034927036278*^9, 
+  3.9840349391535873`*^9}},ExpressionUUID->"bd1b9f72-fab3-47d8-a915-\
+b10091683154"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1070.25, 602.625},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+Magnification:>0.75 Inherited,
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5dc08dac-df46-41cc-a003-e35d6929ba4d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 275, 4, 74, "Title",ExpressionUUID->"b0704c1f-99c4-445f-8a9a-2ccc691cce4e"],
+Cell[858, 28, 250, 4, 27, "Text",ExpressionUUID->"26cdc1d3-e2ac-4b25-b15d-6e3d7e707ad0"],
+Cell[CellGroupData[{
+Cell[1133, 36, 307, 5, 50, "Section",ExpressionUUID->"4f0b6a37-4ffd-4a95-9181-1ab5b4750985"],
+Cell[1443, 43, 2886, 94, 278, "Text",ExpressionUUID->"3da1ea18-755b-4751-9a11-af31ab10733d"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4366, 142, 305, 5, 50, "Section",ExpressionUUID->"c4758f9a-c48c-47fd-97c4-705cd30f5ad0"],
+Cell[4674, 149, 371, 10, 27, "Text",ExpressionUUID->"085b2ce9-7dd7-45d1-bb36-a6e30ad99bc3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5082, 164, 307, 5, 50, "Section",ExpressionUUID->"dee15b22-94f3-46fd-8d56-1b53410f332e"],
+Cell[5392, 171, 714, 16, 100, "Text",ExpressionUUID->"bd1b9f72-fab3-47d8-a915-b10091683154"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
